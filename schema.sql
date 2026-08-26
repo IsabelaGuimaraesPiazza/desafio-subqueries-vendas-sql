@@ -1,0 +1,10 @@
+CREATE TABLE VENDEDORES (
+    id_vendedor INT PRIMARY KEY,
+    nome VARCHAR(100),
+    total_vendas DECIMAL(10,2)
+);
+
+INSERT INTO VENDEDORES VALUES (1, 'Ana Paula', 15000.00);  -- Ganha 15k
+INSERT INTO VENDEDORES VALUES (2, 'Marcos Silva', 8000.00); -- Ganha 8k
+INSERT INTO VENDEDORES VALUES (3, 'Julia Lima', 22000.00);  -- Ganha 22k
+INSERT INTO VENDEDORES VALUES (4, 'Roberto Rocha', 5000.00);-- Ganha 5k
